@@ -56,48 +56,8 @@ public class CustomAlert extends Activity {
     }
     public void show(){
         dialog.show();
-
     }
 
-//    private Typeface FileStreamTypeface(int resource)
-//    {
-//        Typeface tf = null;
-//
-//        InputStream is = getResources().openRawResource(resource);
-//        String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/gmg_underground_tmp";
-//        File f = new File(path);
-//        if (!f.exists())
-//        {
-//            if (!f.mkdirs())
-//                return null;
-//        }
-//
-//        String outPath = path + "/tmp.raw";
-//
-//        try
-//        {
-//            byte[] buffer = new byte[is.available()];
-//            BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(outPath));
-//
-//            int l = 0;
-//            while((l = is.read(buffer)) > 0)
-//            {
-//                bos.write(buffer, 0, l);
-//            }
-//            bos.close();
-//
-//            tf = Typeface.createFromFile(outPath);
-//
-//            File f2 = new File(outPath);
-//            f2.delete();
-//        }
-//        catch (IOException e)
-//        {
-//            return null;
-//        }
-//
-//        return tf;
-//    }
     private Typeface getFontFromRes(int resource, Context context)
     {
         Typeface tf = null;
