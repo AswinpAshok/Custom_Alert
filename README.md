@@ -23,14 +23,14 @@ Eg:
 
 Custom alert with default theme
 
-![img](https://image.ibb.co/ipDoLa/Screen.png)
+![img](https://image.ibb.co/dTm9tv/Screenshot_20170316_133333.png)
 
 
 To Create custom alert with your color choice,
 
 Follow below steps
 
-    CustomAlert customAlert=new CustomAlert(this)
+    CustomAlert customAlert=new CustomAlert(Activity.this)
                 .setTitle("title")
                 .setMessage("message")
                 .setButtonText("alert button")
