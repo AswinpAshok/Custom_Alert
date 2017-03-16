@@ -24,7 +24,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * Created by PC4 on 3/15/2017.
+ * Created by ASWIN on 3/15/2017.
  */
 
 public class CustomAlert {
@@ -105,11 +105,6 @@ public class CustomAlert {
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     public clasher.customalert.CustomAlert setButtonColor(String color) {
         try {
-//            alert.alertButton.setBackgroundColor(Color.parseColor(color));
-//            Drawable drawable=alert.alertButton.getBackground();
-//            drawable.setColorFilter(0,PorterDuff.Mode.CLEAR);
-//            drawable.setColorFilter(Color.parseColor(color), PorterDuff.Mode.MULTIPLY);
-//            alertButton.setBackground(drawable);
             GradientDrawable drawable=(GradientDrawable) alertButton.getBackground();
             drawable.setColor(Color.parseColor(color));
             alertButton.setBackground(drawable);
