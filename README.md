@@ -50,6 +50,7 @@ customized Custom alert
 
 
 You can replace color code with appropriate values.
+
 To add your own button click listner for alert button,do the following
 
 
