@@ -14,7 +14,6 @@
         <TextView
             android:id="@+id/title"
             android:textSize="18sp"
-            android:text="TITLE"
             android:textColor="#fff"
             android:textStyle="bold"
             android:layout_width="wrap_content"
@@ -35,7 +34,6 @@
             android:layout_height="wrap_content"
             android:id="@+id/AlertMessage"
             android:textSize="17sp"
-            android:text="dsvghdskuhgflskjfbhclkuyhgdc"
             android:paddingBottom="15dp"/>
     </RelativeLayout>
     <Button
@@ -46,6 +44,6 @@
         android:layout_centerHorizontal="true"
         android:background="@drawable/button_skin"
         android:textColor="#FFFF"
-        android:text="ok"
+        android:padding="8dp"
         android:elevation="4dp"/>
 </RelativeLayout>
